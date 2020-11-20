@@ -58,6 +58,7 @@ header h6 {
     border-radius: 100%;
     background-color: #fcd05d;
     width: 0.5rem;
+    position: absolute;
 }
 
 .lettuce {
@@ -139,32 +140,27 @@ div:nth-child(10) {
 
 /*Sesamum seeds bellow*/
 p:nth-child(1) {
-    position: absolute;
     top: calc(100% / 3.5);
     left: calc(100% / 4);
 }
 
 p:nth-child(2) {
-    position: absolute;
     top: calc(100% / 3.5);
     left: calc(50%);
     transform: translateX(-50%);
 }
 
 p:nth-child(3) {
-    position: absolute;
     top: calc(100% / 3.5);
     right: calc(100% / 4);
 }
 
 p:nth-child(4) {
-    position: absolute;
     bottom: calc(100% / 4);
     right: calc(100% / 2.75);
 }
 
 p:nth-child(5) {
-    position: absolute;
     bottom: calc(100% / 4);
     left: calc(100% / 2.75);
 }
