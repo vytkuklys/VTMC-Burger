@@ -10,6 +10,7 @@ body {
     background-color: #cce7f4;
     font-size: 10px;
 }
+
 /*header bellow*/
 header {
     width: calc(100% / 4);
@@ -22,11 +23,12 @@ header h2 {
     font-size: 3rem;
 }
 
-header h6{
+header h6 {
     font-family: 'Lato', sans-serif;
     text-align: center;
     font-size: 3rem;
 }
+
 /*main bellow*/
 .burger {
     width: calc(100% / 5);
@@ -50,6 +52,7 @@ header h6{
     height: 7.5rem;
     position: relative;
 }
+
 .bread p {
     padding: 0.3rem 1rem;
     border-radius: 100%;
@@ -86,7 +89,8 @@ header h6{
     height: 4rem;
     border-bottom: 0.5rem solid #462c23;
 }
-.priceTag{
+
+.priceTag {
     position: absolute;
     font-family: 'Alfa Slab One', cursive;
     background-color: #e3431e;
@@ -99,7 +103,8 @@ header h6{
     bottom: 0;
     right: 0;
 }
-/*styling for border-radius and shadows below*/
+
+/*styling for border-radius and borders below*/
 div:first-child {
     border-radius: 10rem 10rem 1.5rem 1.5rem;
     border-bottom: 0.75rem solid #ca9304;
@@ -131,29 +136,34 @@ div:nth-child(10) {
     border-radius: 1.5rem 1.5rem 10rem 10rem;
     border-top: 0.75rem solid #ca9304;
 }
-/*Sesamum seeds*/
-p:nth-child(1){
+
+/*Sesamum seeds bellow*/
+p:nth-child(1) {
     position: absolute;
     top: calc(100% / 3.5);
     left: calc(100% / 4);
 }
-p:nth-child(2){
+
+p:nth-child(2) {
     position: absolute;
     top: calc(100% / 3.5);
     left: calc(50%);
     transform: translateX(-50%);
 }
-p:nth-child(3){
+
+p:nth-child(3) {
     position: absolute;
     top: calc(100% / 3.5);
     right: calc(100% / 4);
 }
-p:nth-child(4){
+
+p:nth-child(4) {
     position: absolute;
     bottom: calc(100% / 4);
     right: calc(100% / 2.75);
 }
-p:nth-child(5){
+
+p:nth-child(5) {
     position: absolute;
     bottom: calc(100% / 4);
     left: calc(100% / 2.75);
