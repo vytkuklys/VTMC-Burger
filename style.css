@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #cce7f4;
+    font-size: 10px;
+}
+/*header bellow*/
+header {
+    width: calc(100% / 4);
+    margin: 5% auto;
+}
+
+header h2 {
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3rem;
+}
+
+header h6{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+/*main bellow*/
+.burger {
+    width: calc(100% / 5);
+    margin: 0 auto;
+    min-width: 30rem;
+    background-color: #cce7f4;
+    text-align: center;
+    position: relative;
+}
+
+.bread,
+.lettuce,
+.cheese,
+.ham {
+    margin: 0.4rem auto;
+}
+
+.bread {
+    width: calc(100% - 6rem);
+    background-color: #f8b300;
+    height: 7.5rem;
+    position: relative;
+}
+.bread p {
+    padding: 0.3rem 1rem;
+    border-radius: 100%;
+    background-color: #fcd05d;
+    width: 0.5rem;
+}
+
+.lettuce {
+    width: calc(100% - 4rem);
+    background-color: #569437;
+    height: 1rem;
+    border-bottom: 0.3rem solid #3b7220;
+}
+
+.cheese {
+    width: calc(100% - 3rem);
+    background-color: #f5e03d;
+    height: 2rem;
+    border-bottom: 0.3rem solid #d2c23e;
+}
+
+.tomato {
+    width: calc((100% - 5rem)/2);
+    background-color: #e3431e;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 0 auto;
+    border-bottom: 0.5rem solid #c73a1a;
+}
+
+.ham {
+    width: calc(100% - 5rem);
+    background-color: #694032;
+    height: 4rem;
+    border-bottom: 0.5rem solid #462c23;
+}
+.priceTag{
+    position: absolute;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #e3431e;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #cce7f4;
+    border-radius: 1rem;
+    transform: rotate(-25deg);
+    bottom: 0;
+    right: 0;
+}
+/*styling for border-radius and shadows below*/
+div:first-child {
+    border-radius: 10rem 10rem 1.5rem 1.5rem;
+    border-bottom: 0.75rem solid #ca9304;
+}
+
+div:nth-child(2) {
+    border-radius: 0.75rem 0.5rem 0 0;
+}
+
+div:nth-child(3),
+div:nth-child(4),
+div:nth-child(5),
+div:nth-child(6),
+div:nth-child(8) {
+    border-radius: 0.75rem;
+}
+
+div:nth-child(7) {
+    border-radius: 1.5rem;
+}
+
+div:nth-child(9) {
+    border-radius: 0 0 0.5rem 0.5rem;
+    border-top: 0.3rem solid #3b7220;
+    border-bottom: none;
+}
+
+div:nth-child(10) {
+    border-radius: 1.5rem 1.5rem 10rem 10rem;
+    border-top: 0.75rem solid #ca9304;
+}
+/*Sesamum seeds*/
+p:nth-child(1){
+    position: absolute;
+    top: calc(100% / 3.5);
+    left: calc(100% / 4);
+}
+p:nth-child(2){
+    position: absolute;
+    top: calc(100% / 3.5);
+    left: calc(50%);
+    transform: translateX(-50%);
+}
+p:nth-child(3){
+    position: absolute;
+    top: calc(100% / 3.5);
+    right: calc(100% / 4);
+}
+p:nth-child(4){
+    position: absolute;
+    bottom: calc(100% / 4);
+    right: calc(100% / 2.75);
+}
+p:nth-child(5){
+    position: absolute;
+    bottom: calc(100% / 4);
+    left: calc(100% / 2.75);
+}
